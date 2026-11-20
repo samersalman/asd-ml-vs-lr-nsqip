@@ -1,0 +1,4 @@
+definition,primary_cohort_n
+"elective (primary: ELECTSURG=Yes & not emergent, or CASETYPE=Elective)",7699
+"non-emergent (EMERGNCY=No, or CASETYPE not Emergent)",8498
+difference,799

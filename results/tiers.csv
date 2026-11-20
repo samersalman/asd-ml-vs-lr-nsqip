@@ -1,0 +1,15 @@
+outcome,cohort,n,events,prevalence,provisional_tier_background,candidate_parameters_full,events_per_parameter_full,riley_met_full,riley_met_10_parameters,tier,models_permitted,rule_applied
+nonhome,primary,7602,2448,0.322,1,62,39.48,TRUE,TRUE,Tier 1,"LR, spline LR, CART, RF, XGBoost, MLP",>=500 events and provisional Tier 1
+los_p75,primary,7671,1975,0.2575,1,62,31.85,TRUE,TRUE,Tier 1,"LR, spline LR, CART, RF, XGBoost, MLP",>=500 events and provisional Tier 1
+readm_unplanned,primary,7597,557,0.0733,1,62,8.98,FALSE,TRUE,Tier 1,"LR, spline LR, CART, RF, XGBoost, MLP",>=500 events and provisional Tier 1
+ssi,primary,7639,273,0.0357,2,62,4.4,FALSE,TRUE,Tier 2,"penalised LR vs XGBoost, restricted predictors, exploratory",provisional Tier 2 and >=100 events
+cardiac,primary,7699,107,0.0139,3,62,1.73,FALSE,TRUE,Tier 3,"prespecified penalised LR, <=10 parameters","provisional Tier 3, >=100 events and Riley criteria met for 10 parameters"
+renal,primary,5187,30,0.0058,3,62,0.48,FALSE,FALSE,Descriptive only,none; incidence and univariable description,<100 events: no model developed (Phase 0 stop rule)
+los_ge9,primary,7671,1440,0.1877,1,62,23.23,,,Tier 1,comparator definition only; same tier as los_p75,comparator of los_p75
+nonhome,dx_required,4542,1686,0.3712,1,62,27.19,FALSE,TRUE,Tier 1,"LR, spline LR, CART, RF, XGBoost, MLP",>=500 events and provisional Tier 1
+los_p75,dx_required,4592,1452,0.3162,1,62,23.42,FALSE,TRUE,Tier 1,"LR, spline LR, CART, RF, XGBoost, MLP",>=500 events and provisional Tier 1
+readm_unplanned,dx_required,4542,345,0.076,1,62,5.56,FALSE,TRUE,Tier 2,penalised LR vs XGBoost,provisional Tier 1 but <500 events: demoted one tier
+ssi,dx_required,4570,187,0.0409,2,62,3.02,FALSE,TRUE,Tier 2,"penalised LR vs XGBoost, restricted predictors, exploratory",provisional Tier 2 and >=100 events
+cardiac,dx_required,4604,68,0.0148,3,62,1.1,FALSE,TRUE,Descriptive only,none; incidence and univariable description,<100 events: no model developed (Phase 0 stop rule)
+renal,dx_required,3093,19,0.0061,3,62,0.31,FALSE,FALSE,Descriptive only,none; incidence and univariable description,<100 events: no model developed (Phase 0 stop rule)
+los_ge9,dx_required,4592,1065,0.2319,1,62,17.18,,,Tier 1,comparator definition only; same tier as los_p75,comparator of los_p75

@@ -1,0 +1,8 @@
+outcome,model,note
+readm_unplanned,lr_spline;cart;rf;xgb;mlp,exploratory: Riley criterion not met for 62 parameters; flexible-model results are unstable and not confirmatory
+readm_unplanned,cart,near root-only tree (few distinct probabilities); ICI is not comparable and is NA when under 5 unique predictions; top-k ties broken by row order
+readm_unplanned,lr;ridge_lasso,Riley not met at 62 parameters (8.98 events per parameter); interpret with caution
+nonhome;los_p75;readm_unplanned,mlp,MLP reached nnet maxit=300 in some final seeds (see models_runlog.csv); predictions used as is
+all,all,"los_p75 cutoff (>=8 d) was computed on the whole cohort (75th percentile), not inside training folds"
+ssi;cardiac,all,exploratory low-event outcomes; wide CIs
+los_ge9,lr;xgb,sensitivity comparator definition of prolonged LOS (>=9 d)

@@ -1,0 +1,19 @@
+arm,dx_class,n,pct_of_arm,pct_of_primary
+22843/22844 plus deformity diagnosis,Deformity (M40/M41/M43.8/Q76; 737),1876,100,24.37
+22843/22844 plus deformity diagnosis,Spinal stenosis (M48),0,0,0
+22843/22844 plus deformity diagnosis,Disc disorder (M51),0,0,0
+22843/22844 plus deformity diagnosis,Other M43,0,0,0
+22843/22844 plus deformity diagnosis,Post-procedural (M96),0,0,0
+22843/22844 plus deformity diagnosis,Hardware complication (T84),0,0,0
+22843/22844 plus deformity diagnosis,Hardware complication (996),0,0,0
+22843/22844 plus deformity diagnosis,ICD-9 degenerative (721/722/724),0,0,0
+22843/22844 plus deformity diagnosis,Other,0,0,0
+Arthrodesis code 22800-22812,Deformity (M40/M41/M43.8/Q76; 737),2728,46.85,35.43
+Arthrodesis code 22800-22812,Spinal stenosis (M48),847,14.55,11
+Arthrodesis code 22800-22812,Disc disorder (M51),229,3.93,2.97
+Arthrodesis code 22800-22812,Other M43,233,4,3.03
+Arthrodesis code 22800-22812,Post-procedural (M96),200,3.43,2.6
+Arthrodesis code 22800-22812,Hardware complication (T84),123,2.11,1.6
+Arthrodesis code 22800-22812,Hardware complication (996),99,1.7,1.29
+Arthrodesis code 22800-22812,ICD-9 degenerative (721/722/724),534,9.17,6.94
+Arthrodesis code 22800-22812,Other,830,14.25,10.78

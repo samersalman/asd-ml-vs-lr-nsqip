@@ -1,0 +1,2 @@
+cohort,n,p75_days_type1,p75_days_type7,median_days,prop_ge_cutoff,prop_ge9,note
+primary,7671,8,8,5,0.25746317298918,0.187719984356668,still-in-hospital or DOPTODIS>30 coded as 31 days (>30); in-hospital deaths excluded

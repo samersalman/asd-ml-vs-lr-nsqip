@@ -1,0 +1,185 @@
+section,cohort,outcome,step,description,n_removed,n_remaining
+cohort,primary,,0,"Candidate cases: any of 22800/22802/22804/22808/22810/22812/22843/22844 in any of 21 CPT slots, 2012-2024",,20215
+cohort,primary,,1,Age missing,0,20215
+cohort,primary,,2,Age < 18 years,0,20215
+cohort,primary,,3,"Sex missing, non-binary or intersex",1,20214
+cohort,primary,,4,"Not elective (ELECTSURG/EMERGNCY to 2020, CASETYPE from 2021)",3433,16781
+cohort,primary,,5,Preoperative sepsis or septic shock,43,16738
+cohort,primary,,6,Ventilator dependence,43,16695
+cohort,primary,,7,ASA class 5,5,16690
+cohort,primary,,8,Principal diagnosis: tumour,401,16289
+cohort,primary,,9,Principal diagnosis: spinal infection,184,16105
+cohort,primary,,10,Principal diagnosis: acute vertebral fracture,562,15543
+cohort,primary,,11,Cervical-only procedure,1813,13730
+cohort,primary,,12,No deformity arthrodesis code and no (22843/22844 plus deformity diagnosis),5947,7783
+cohort,primary,,13,Neuromuscular scoliosis (M41.4x),84,7699
+cohort,broad,,0,"Candidate cases: any of 22800/22802/22804/22808/22810/22812/22843/22844 in any of 21 CPT slots, 2012-2024",,20215
+cohort,broad,,1,Age missing,0,20215
+cohort,broad,,2,Age < 18 years,0,20215
+cohort,broad,,3,"Sex missing, non-binary or intersex",1,20214
+cohort,broad,,4,"Not elective (ELECTSURG/EMERGNCY to 2020, CASETYPE from 2021)",3433,16781
+cohort,broad,,5,Preoperative sepsis or septic shock,43,16738
+cohort,broad,,6,Ventilator dependence,43,16695
+cohort,broad,,7,ASA class 5,5,16690
+cohort,broad,,8,Principal diagnosis: tumour,401,16289
+cohort,broad,,9,Principal diagnosis: spinal infection,184,16105
+cohort,broad,,10,Principal diagnosis: acute vertebral fracture,562,15543
+cohort,broad,,11,Cervical-only procedure,1813,13730
+cohort,broad,,12,No deformity arthrodesis or long-instrumentation code,0,13730
+cohort,strict,,0,"Candidate cases: any of 22800/22802/22804/22808/22810/22812/22843/22844 in any of 21 CPT slots, 2012-2024",,20215
+cohort,strict,,1,Age missing,0,20215
+cohort,strict,,2,Age < 18 years,0,20215
+cohort,strict,,3,"Sex missing, non-binary or intersex",1,20214
+cohort,strict,,4,"Not elective (ELECTSURG/EMERGNCY to 2020, CASETYPE from 2021)",3433,16781
+cohort,strict,,5,Preoperative sepsis or septic shock,43,16738
+cohort,strict,,6,Ventilator dependence,43,16695
+cohort,strict,,7,ASA class 5,5,16690
+cohort,strict,,8,Principal diagnosis: tumour,401,16289
+cohort,strict,,9,Principal diagnosis: spinal infection,184,16105
+cohort,strict,,10,Principal diagnosis: acute vertebral fracture,562,15543
+cohort,strict,,11,Cervical-only procedure,1813,13730
+cohort,strict,,12,"Not (deformity diagnosis and (>=7 segments, 22206/22207 or 22848))",9672,4058
+cohort,strict,,13,Neuromuscular scoliosis (M41.4x),0,4058
+cohort,primary_nm,,0,"Candidate cases: any of 22800/22802/22804/22808/22810/22812/22843/22844 in any of 21 CPT slots, 2012-2024",,20215
+cohort,primary_nm,,1,Age missing,0,20215
+cohort,primary_nm,,2,Age < 18 years,0,20215
+cohort,primary_nm,,3,"Sex missing, non-binary or intersex",1,20214
+cohort,primary_nm,,4,"Not elective (ELECTSURG/EMERGNCY to 2020, CASETYPE from 2021)",3433,16781
+cohort,primary_nm,,5,Preoperative sepsis or septic shock,43,16738
+cohort,primary_nm,,6,Ventilator dependence,43,16695
+cohort,primary_nm,,7,ASA class 5,5,16690
+cohort,primary_nm,,8,Principal diagnosis: tumour,401,16289
+cohort,primary_nm,,9,Principal diagnosis: spinal infection,184,16105
+cohort,primary_nm,,10,Principal diagnosis: acute vertebral fracture,562,15543
+cohort,primary_nm,,11,Cervical-only procedure,1813,13730
+cohort,primary_nm,,12,No deformity arthrodesis code and no (22843/22844 plus deformity diagnosis incl. M41.4x),5931,7799
+cohort,dx_required,,0,"Candidate cases: any of 22800/22802/22804/22808/22810/22812/22843/22844 in any of 21 CPT slots, 2012-2024",,20215
+cohort,dx_required,,1,Age missing,0,20215
+cohort,dx_required,,2,Age < 18 years,0,20215
+cohort,dx_required,,3,"Sex missing, non-binary or intersex",1,20214
+cohort,dx_required,,4,"Not elective (ELECTSURG/EMERGNCY to 2020, CASETYPE from 2021)",3433,16781
+cohort,dx_required,,5,Preoperative sepsis or septic shock,43,16738
+cohort,dx_required,,6,Ventilator dependence,43,16695
+cohort,dx_required,,7,ASA class 5,5,16690
+cohort,dx_required,,8,Principal diagnosis: tumour,401,16289
+cohort,dx_required,,9,Principal diagnosis: spinal infection,184,16105
+cohort,dx_required,,10,Principal diagnosis: acute vertebral fracture,562,15543
+cohort,dx_required,,11,Cervical-only procedure,1813,13730
+cohort,dx_required,,12,No deformity arthrodesis code and no (22843/22844 plus deformity diagnosis),5947,7783
+cohort,dx_required,,13,Neuromuscular scoliosis (M41.4x),84,7699
+cohort,dx_required,,14,No deformity diagnosis (arthrodesis-code-only cases removed; D1 prespecified sensitivity),3095,4604
+outcome,primary,nonhome,0,Cohort,,7699
+outcome,primary,nonhome,1,Died in hospital (Expired),28,7671
+outcome,primary,nonhome,2,Still in hospital or stay > 30 days,64,7607
+outcome,primary,nonhome,3,"Destination missing, AMA or Unknown",5,7602
+outcome,primary,los,0,Cohort,,7699
+outcome,primary,los,1,Died in hospital (Expired),28,7671
+outcome,primary,los,2,Stay length missing,0,7671
+outcome,primary,readmission,0,Cohort,,7699
+outcome,primary,readmission,1,Died in hospital (Expired),28,7671
+outcome,primary,readmission,2,Still in hospital or stay > 30 days,64,7607
+outcome,primary,readmission,3,Discharge destination missing,0,7607
+outcome,primary,readmission,4,Readmission flag missing,10,7597
+outcome,primary,ssi,0,Cohort,,7699
+outcome,primary,ssi,1,SSI outcome fields missing,0,7699
+outcome,primary,ssi,2,SSI present at time of surgery (PATOS),18,7681
+outcome,primary,ssi,3,Open wound (field exists 2012-2020 only),42,7639
+outcome,primary,cardiac,0,Cohort,,7699
+outcome,primary,cardiac,1,MI or arrest field missing,0,7699
+outcome,primary,renal,0,Cohort,,7699
+outcome,primary,renal,1,2021 (mixed renal definition) excluded,658,7041
+outcome,primary,renal,2,2022-2024 (new renal definition) excluded,1844,5197
+outcome,primary,renal,3,Preoperative dialysis,10,5187
+outcome,primary,renal,4,Renal outcome fields missing,0,5187
+outcome,broad,nonhome,0,Cohort,,13730
+outcome,broad,nonhome,1,Died in hospital (Expired),52,13678
+outcome,broad,nonhome,2,Still in hospital or stay > 30 days,117,13561
+outcome,broad,nonhome,3,"Destination missing, AMA or Unknown",14,13547
+outcome,broad,los,0,Cohort,,13730
+outcome,broad,los,1,Died in hospital (Expired),52,13678
+outcome,broad,los,2,Stay length missing,0,13678
+outcome,broad,readmission,0,Cohort,,13730
+outcome,broad,readmission,1,Died in hospital (Expired),52,13678
+outcome,broad,readmission,2,Still in hospital or stay > 30 days,117,13561
+outcome,broad,readmission,3,Discharge destination missing,0,13561
+outcome,broad,readmission,4,Readmission flag missing,12,13549
+outcome,broad,ssi,0,Cohort,,13730
+outcome,broad,ssi,1,SSI outcome fields missing,0,13730
+outcome,broad,ssi,2,SSI present at time of surgery (PATOS),30,13700
+outcome,broad,ssi,3,Open wound (field exists 2012-2020 only),84,13616
+outcome,broad,cardiac,0,Cohort,,13730
+outcome,broad,cardiac,1,MI or arrest field missing,0,13730
+outcome,broad,renal,0,Cohort,,13730
+outcome,broad,renal,1,2021 (mixed renal definition) excluded,1324,12406
+outcome,broad,renal,2,2022-2024 (new renal definition) excluded,3905,8501
+outcome,broad,renal,3,Preoperative dialysis,25,8476
+outcome,broad,renal,4,Renal outcome fields missing,0,8476
+outcome,strict,nonhome,0,Cohort,,4058
+outcome,strict,nonhome,1,Died in hospital (Expired),12,4046
+outcome,strict,nonhome,2,Still in hospital or stay > 30 days,40,4006
+outcome,strict,nonhome,3,"Destination missing, AMA or Unknown",4,4002
+outcome,strict,los,0,Cohort,,4058
+outcome,strict,los,1,Died in hospital (Expired),12,4046
+outcome,strict,los,2,Stay length missing,0,4046
+outcome,strict,readmission,0,Cohort,,4058
+outcome,strict,readmission,1,Died in hospital (Expired),12,4046
+outcome,strict,readmission,2,Still in hospital or stay > 30 days,40,4006
+outcome,strict,readmission,3,Discharge destination missing,0,4006
+outcome,strict,readmission,4,Readmission flag missing,3,4003
+outcome,strict,ssi,0,Cohort,,4058
+outcome,strict,ssi,1,SSI outcome fields missing,0,4058
+outcome,strict,ssi,2,SSI present at time of surgery (PATOS),7,4051
+outcome,strict,ssi,3,Open wound (field exists 2012-2020 only),26,4025
+outcome,strict,cardiac,0,Cohort,,4058
+outcome,strict,cardiac,1,MI or arrest field missing,0,4058
+outcome,strict,renal,0,Cohort,,4058
+outcome,strict,renal,1,2021 (mixed renal definition) excluded,355,3703
+outcome,strict,renal,2,2022-2024 (new renal definition) excluded,1015,2688
+outcome,strict,renal,3,Preoperative dialysis,3,2685
+outcome,strict,renal,4,Renal outcome fields missing,0,2685
+outcome,primary_nm,nonhome,0,Cohort,,7799
+outcome,primary_nm,nonhome,1,Died in hospital (Expired),28,7771
+outcome,primary_nm,nonhome,2,Still in hospital or stay > 30 days,67,7704
+outcome,primary_nm,nonhome,3,"Destination missing, AMA or Unknown",5,7699
+outcome,primary_nm,los,0,Cohort,,7799
+outcome,primary_nm,los,1,Died in hospital (Expired),28,7771
+outcome,primary_nm,los,2,Stay length missing,0,7771
+outcome,primary_nm,readmission,0,Cohort,,7799
+outcome,primary_nm,readmission,1,Died in hospital (Expired),28,7771
+outcome,primary_nm,readmission,2,Still in hospital or stay > 30 days,67,7704
+outcome,primary_nm,readmission,3,Discharge destination missing,0,7704
+outcome,primary_nm,readmission,4,Readmission flag missing,10,7694
+outcome,primary_nm,ssi,0,Cohort,,7799
+outcome,primary_nm,ssi,1,SSI outcome fields missing,0,7799
+outcome,primary_nm,ssi,2,SSI present at time of surgery (PATOS),18,7781
+outcome,primary_nm,ssi,3,Open wound (field exists 2012-2020 only),43,7738
+outcome,primary_nm,cardiac,0,Cohort,,7799
+outcome,primary_nm,cardiac,1,MI or arrest field missing,0,7799
+outcome,primary_nm,renal,0,Cohort,,7799
+outcome,primary_nm,renal,1,2021 (mixed renal definition) excluded,669,7130
+outcome,primary_nm,renal,2,2022-2024 (new renal definition) excluded,1867,5263
+outcome,primary_nm,renal,3,Preoperative dialysis,10,5253
+outcome,primary_nm,renal,4,Renal outcome fields missing,0,5253
+outcome,dx_required,nonhome,0,Cohort,,4604
+outcome,dx_required,nonhome,1,Died in hospital (Expired),12,4592
+outcome,dx_required,nonhome,2,Still in hospital or stay > 30 days,46,4546
+outcome,dx_required,nonhome,3,"Destination missing, AMA or Unknown",4,4542
+outcome,dx_required,los,0,Cohort,,4604
+outcome,dx_required,los,1,Died in hospital (Expired),12,4592
+outcome,dx_required,los,2,Stay length missing,0,4592
+outcome,dx_required,readmission,0,Cohort,,4604
+outcome,dx_required,readmission,1,Died in hospital (Expired),12,4592
+outcome,dx_required,readmission,2,Still in hospital or stay > 30 days,46,4546
+outcome,dx_required,readmission,3,Discharge destination missing,0,4546
+outcome,dx_required,readmission,4,Readmission flag missing,4,4542
+outcome,dx_required,ssi,0,Cohort,,4604
+outcome,dx_required,ssi,1,SSI outcome fields missing,0,4604
+outcome,dx_required,ssi,2,SSI present at time of surgery (PATOS),8,4596
+outcome,dx_required,ssi,3,Open wound (field exists 2012-2020 only),26,4570
+outcome,dx_required,cardiac,0,Cohort,,4604
+outcome,dx_required,cardiac,1,MI or arrest field missing,0,4604
+outcome,dx_required,renal,0,Cohort,,4604
+outcome,dx_required,renal,1,2021 (mixed renal definition) excluded,398,4206
+outcome,dx_required,renal,2,2022-2024 (new renal definition) excluded,1109,3097
+outcome,dx_required,renal,3,Preoperative dialysis,4,3093
+outcome,dx_required,renal,4,Renal outcome fields missing,0,3093

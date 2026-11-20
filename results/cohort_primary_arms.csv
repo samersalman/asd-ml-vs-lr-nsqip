@@ -1,0 +1,7 @@
+arm,has_deformity_dx,icd_version,n
+22843/22844 plus deformity diagnosis,TRUE,9,383
+22843/22844 plus deformity diagnosis,TRUE,10,1493
+deformity arthrodesis code (diagnosis not required),FALSE,9,832
+deformity arthrodesis code (diagnosis not required),FALSE,10,2263
+deformity arthrodesis code (diagnosis not required),TRUE,9,737
+deformity arthrodesis code (diagnosis not required),TRUE,10,1991

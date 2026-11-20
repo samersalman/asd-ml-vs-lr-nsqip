@@ -1,0 +1,50 @@
+variable,label,type,set,drift_caveat,cpt_derived
+age,Age (years),numeric,common,no,no
+bmi,Body mass index (kg/m2),numeric,common,no,no
+lab_sodium,Serum sodium (mEq/L),numeric,common,no,no
+lab_bun,Blood urea nitrogen (mg/dL),numeric,common,no,no
+lab_creatinine,Serum creatinine (mg/dL),numeric,common,no,no
+lab_albumin,Serum albumin (g/dL),numeric,common,no,no
+lab_hematocrit,Hematocrit (%),numeric,common,no,no
+lab_platelets,Platelet count (x10^3/uL),numeric,common,no,no
+lab_wbc,White cell count (x10^3/uL),numeric,common,no,no
+lab_inr,INR,numeric,common,no,no
+n_cpt_codes,Number of CPT codes recorded,numeric,common,no,yes
+sex_male,Male sex,binary,common,no,no
+inpatient,Inpatient status,binary,common,no,no
+smoker,Current smoker,binary,common,no,no
+copd,COPD,binary,common,no,no
+heart_failure,Heart failure,binary,common,yes,no
+hypertension,Hypertension requiring medication,binary,common,no,no
+dialysis_preop,Preoperative dialysis,binary,common,no,no
+disseminated_cancer,Disseminated cancer,binary,common,no,no
+steroid_immunosuppression,Chronic steroid or immunosuppressant use,binary,common,yes,no
+bleeding_disorder,Bleeding disorder,binary,common,no,no
+preop_transfusion,Preoperative transfusion,binary,common,yes,no
+preop_sirs,Preoperative SIRS,binary,common,no,no
+three_column_osteotomy,Three-column osteotomy (22206/22207),binary,common,no,yes
+posterior_column_osteotomy,Posterior-column osteotomy (22212/22214),binary,common,no,yes
+pelvic_fixation,Pelvic fixation (22848),binary,common,no,yes
+interbody_fusion,Interbody fusion (22558/22630/22633),binary,common,no,yes
+combined_ap,Combined anterior-posterior approach,binary,common,no,yes
+race_group,Race,categorical,common,yes,no
+hispanic,Hispanic ethnicity,categorical,common,no,no
+functional_status,Functional status,categorical,common,no,no
+asa_class,ASA class,categorical,common,no,no
+admission_origin,Admission origin,categorical,common,yes,no
+diabetes,Diabetes,categorical,common,no,no
+instrumentation,Instrumented segments (CPT),categorical,common,no,yes
+post_deformity_arthrodesis,Posterior deformity arthrodesis (CPT),categorical,common,no,yes
+ant_deformity_arthrodesis,Anterior deformity arthrodesis (CPT),categorical,common,no,yes
+miss_sodium,Missing: sodium,binary,common,no,no
+miss_bun,Missing: bun,binary,common,no,no
+miss_creatinine,Missing: creatinine,binary,common,no,no
+miss_albumin,Missing: albumin,binary,common,no,no
+miss_hematocrit,Missing: hematocrit,binary,common,no,no
+miss_platelets,Missing: platelets,binary,common,no,no
+miss_wbc,Missing: wbc,binary,common,no,no
+miss_inr,Missing: inr,binary,common,no,no
+so_weight_loss,Weight loss >10% (to 2020 only),binary,sensitivity_only,no,no
+so_open_wound,Open wound (to 2020 only),binary,sensitivity_only,no,no
+so_dyspnea,Dyspnea (to 2020 only),categorical,sensitivity_only,no,no
+so_wound_class,Wound class (to 2020 only),categorical,sensitivity_only,no,no
